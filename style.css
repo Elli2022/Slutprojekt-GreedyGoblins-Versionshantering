@@ -3,12 +3,23 @@
 body {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  text-align: center;
   background-color: black;
   color: rgb(17, 218, 118);
   font-family: "Secular One", sans-serif;
 }
 
+#papaDiv {
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
 
+#inName {
+}
+
+#btn {
+  width: 50%;
+  background-color: rgb(17, 218, 118);
+}
