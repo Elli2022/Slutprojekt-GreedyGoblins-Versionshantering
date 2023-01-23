@@ -101,6 +101,7 @@ buttonMode.addEventListener("click", () => {
     body.style.backgroundImage = "url(/bgdark.jpg)";
     body.style.color = "whitesmoke";
     buttonMode.innerHTML = '<i class="fa-solid fa-lightbulb"></i>';
+    buttonMode.style.color = "black";
     titel.style.textDecoration = "double underline black";
     inName.style.border = "5px solid black";
     inName.style.color = "black";
@@ -112,6 +113,7 @@ buttonMode.addEventListener("click", () => {
     body.style.backgroundImage = "url(/bg.jpg)";
     body.style.color = "";
     buttonMode.innerHTML = `<i class="fa-regular fa-lightbulb"></i>`;
+    buttonMode.style.color = "rgb(17, 218, 118)";
     titel.style.textDecoration = "";
     inName.style.border = "";
     btn.style.backgroundColor = "";

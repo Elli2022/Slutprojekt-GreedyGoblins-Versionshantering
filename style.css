@@ -43,6 +43,7 @@ body {
   font-family: "Secular One", sans-serif;
   border: 5px solid rgb(144, 6, 135);
   transition: 3s;
+  cursor: pointer;
 }
 
 #btn:hover {
@@ -83,4 +84,9 @@ body {
   margin-top: 15px;
   font-size: 50px;
   transition: 0.5s;
+  cursor: pointer;
+}
+
+#lampon {
+  color: rgb(17, 218, 118);
 }
