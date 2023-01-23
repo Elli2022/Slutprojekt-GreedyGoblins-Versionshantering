@@ -103,6 +103,7 @@ buttonMode.addEventListener("click", () => {
     buttonMode.innerHTML = '<i class="fa-solid fa-lightbulb"></i>';
     titel.style.textDecoration = "double underline black";
     inName.style.border = "5px solid black";
+    inName.style.color = "black";
     btn.style.backgroundColor = "black";
     btn.style.border = "5px solid whitesmoke";
     console.log("dark");
