@@ -116,6 +116,7 @@ buttonMode.addEventListener("click", () => {
     buttonMode.style.color = "rgb(17, 218, 118)";
     titel.style.textDecoration = "";
     inName.style.border = "";
+    inName.style.color = "";
     btn.style.backgroundColor = "";
     btn.style.border = "";
     console.log("light");
