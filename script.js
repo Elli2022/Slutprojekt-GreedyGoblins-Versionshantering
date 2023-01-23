@@ -100,7 +100,7 @@ buttonMode.addEventListener("click", () => {
     mode.content = "dark";
     body.style.backgroundImage = "url(/bgdark.jpg)";
     body.style.color = "whitesmoke";
-    buttonMode.innerText = `Tänd ljuset`;
+    buttonMode.innerHTML = '<i class="fa-solid fa-lightbulb"></i>';
     titel.style.textDecoration = "double underline black";
     inName.style.border = "5px solid black";
     btn.style.backgroundColor = "black";
@@ -110,7 +110,7 @@ buttonMode.addEventListener("click", () => {
     mode.content = "light";
     body.style.backgroundImage = "url(/bg.jpg)";
     body.style.color = "";
-    buttonMode.innerText = `Släck ljuset`;
+    buttonMode.innerHTML = `<i class="fa-regular fa-lightbulb"></i>`;
     titel.style.textDecoration = "";
     inName.style.border = "";
     btn.style.backgroundColor = "";

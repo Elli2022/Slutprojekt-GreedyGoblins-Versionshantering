@@ -78,3 +78,9 @@ body {
   text-decoration: double underline rgb(144, 6, 135);
   transition: 0.5s;
 }
+
+#buttonMode {
+  margin-top: 15px;
+  font-size: 50px;
+  transition: 0.5s;
+}
