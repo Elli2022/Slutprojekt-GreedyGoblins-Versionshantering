@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
   background-color: black;
   color: rgb(17, 218, 118);
   font-family: "Secular One", sans-serif;
 }
 
-#content-container {
-  display: flex;
-  flex-direction: column;
-}
+
