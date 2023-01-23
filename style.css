@@ -17,7 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 965px;
-  transition: 1s;
+  transition: 3s;
 }
 
 #papaDiv {
@@ -32,6 +32,7 @@ body {
   color: rgb(17, 218, 118);
   font-size: 25px;
   font-family: "Secular One", sans-serif;
+  transition: 3s;
 }
 
 #btn {
@@ -41,7 +42,7 @@ body {
   margin-top: 16px;
   font-family: "Secular One", sans-serif;
   border: 5px solid rgb(144, 6, 135);
-  transition: 0.5s;
+  transition: 3s;
 }
 
 #btn:hover {
@@ -75,4 +76,5 @@ body {
 
 #titel {
   text-decoration: double underline rgb(144, 6, 135);
+  transition: 0.5s;
 }

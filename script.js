@@ -90,17 +90,31 @@ function removeHeader() {
 //Dark mode
 let buttonMode = document.getElementById("buttonMode");
 let body = document.getElementById("body");
+let titel = document.getElementById("titel");
+let inName = document.getElementById("inName");
 
 buttonMode.addEventListener("click", () => {});
 
 buttonMode.addEventListener("click", () => {
   if (mode.content == "light") {
     mode.content = "dark";
-    body.style.backgroundImage = "url(/bg.jpg)";
+    body.style.backgroundImage = "url(/bgdark.jpg)";
+    body.style.color = "whitesmoke";
+    buttonMode.innerText = `Tänd ljuset`;
+    titel.style.textDecoration = "double underline black";
+    inName.style.border = "5px solid black";
+    btn.style.backgroundColor = "black";
+    btn.style.border = "5px solid whitesmoke";
     console.log("dark");
   } else {
     mode.content = "light";
+    body.style.backgroundImage = "url(/bg.jpg)";
     body.style.color = "";
+    buttonMode.innerText = `Släck ljuset`;
+    titel.style.textDecoration = "";
+    inName.style.border = "";
+    btn.style.backgroundColor = "";
+    btn.style.border = "";
     console.log("light");
   }
 });
