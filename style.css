@@ -2,6 +2,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,14 +13,14 @@ body {
   color: rgb(17, 218, 118);
   font-family: "Secular One", sans-serif;
   background-image: url(/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
 }
 
 #papaDiv {
-  align-content: center;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
-  margin: auto;
+  margin-top: 15px;
 }
 
 #inName {
@@ -47,4 +49,11 @@ body {
 #content-container,
 #container {
   text-align: center;
+}
+
+#buttonAndInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
