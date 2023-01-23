@@ -10,6 +10,7 @@ body {
   background-color: black;
   color: rgb(17, 218, 118);
   font-family: "Secular One", sans-serif;
+  background-image: url(/bg.jpg);
 }
 
 #papaDiv {
