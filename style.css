@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
 body {
   background-color: black;
   color: rgb(17, 218, 118);
+  font-family: "Secular One", sans-serif;
 }
 
 #content-container {
