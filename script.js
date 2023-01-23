@@ -86,3 +86,21 @@ function removeHeader() {
     });
   });
 }
+
+//Dark mode
+let buttonMode = document.getElementById("buttonMode");
+let body = document.getElementById("body");
+
+buttonMode.addEventListener("click", () => {});
+
+buttonMode.addEventListener("click", () => {
+  if (mode.content == "light") {
+    mode.content = "dark";
+    body.style.backgroundImage = "url(/bg.jpg)";
+    console.log("dark");
+  } else {
+    mode.content = "light";
+    body.style.color = "";
+    console.log("light");
+  }
+});

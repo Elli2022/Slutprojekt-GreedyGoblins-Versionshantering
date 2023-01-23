@@ -17,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 965px;
+  transition: 1s;
 }
 
 #papaDiv {
