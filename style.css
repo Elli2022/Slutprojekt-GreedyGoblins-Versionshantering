@@ -13,20 +13,20 @@ body {
   color: rgb(17, 218, 118);
   font-family: "Secular One", sans-serif;
   background-image: url(/bg.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 965px;
 }
 
 #papaDiv {
   text-align: center;
-  margin-top: 15px;
   background-color: rgba(0, 0, 0, 0.568);
 }
 
 #inName {
   margin-top: 16px;
-  border: 3px solid rgb(17, 218, 118);
+  border: 3px solid rgb(144, 6, 135);
   background-color: rgb(48, 46, 46);
   color: rgb(17, 218, 118);
   font-size: 25px;
@@ -38,7 +38,7 @@ body {
   background-color: rgb(17, 218, 118);
   margin-top: 16px;
   font-family: "Secular One", sans-serif;
-  border: 5px solid rgb(48, 46, 46);
+  border: 5px solid rgb(144, 6, 135);
   transition: 0.5s;
 }
 
@@ -48,12 +48,14 @@ body {
   color: rgb(17, 218, 118);
 }
 
-#content-container,
-#container {
+#content-container {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.568);
-  margin-top: 16px;
   font-size: 35px;
+}
+
+#content {
+  margin-top: 50px;
 }
 
 #buttonAndInput {
@@ -61,4 +63,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.568);
+  margin-top: auto;
+  text-align: center;
+}
+
+#titel {
+  text-decoration: double underline rgb(144, 6, 135);
 }
