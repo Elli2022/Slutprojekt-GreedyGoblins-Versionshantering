@@ -98,7 +98,7 @@ buttonMode.addEventListener("click", () => {});
 buttonMode.addEventListener("click", () => {
   if (mode.content == "light") {
     mode.content = "dark";
-    body.style.backgroundImage = "url(/bgdark.jpg)";
+    body.style.backgroundImage = "url(bgdark.jpg)";
     body.style.color = "whitesmoke";
     buttonMode.innerHTML = '<i class="fa-solid fa-lightbulb"></i>';
     buttonMode.style.color = "black";
@@ -110,7 +110,7 @@ buttonMode.addEventListener("click", () => {
     console.log("dark");
   } else {
     mode.content = "light";
-    body.style.backgroundImage = "url(/bg.jpg)";
+    body.style.backgroundImage = "url(bg.jpg)";
     body.style.color = "";
     buttonMode.innerHTML = `<i class="fa-regular fa-lightbulb"></i>`;
     buttonMode.style.color = "rgb(17, 218, 118)";
