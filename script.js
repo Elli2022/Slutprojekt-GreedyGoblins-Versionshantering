@@ -104,7 +104,7 @@ buttonMode.addEventListener("click", () => {
     buttonMode.style.color = "black";
     titel.style.textDecoration = "double underline black";
     inName.style.border = "5px solid black";
-    inName.style.color = "black";
+    inName.style.color = "white";
     btn.style.backgroundColor = "black";
     btn.style.border = "5px solid whitesmoke";
     console.log("dark");
