@@ -91,19 +91,21 @@ body {
   color: rgb(17, 218, 118);
 }
 
-
 @keyframes animate-emoji {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
 }
 
 #ghost {
   animation: animate-emoji 5s infinite;
   font-size: 2em;
-
 }
 
-footer{
+footer {
   margin-top: auto;
   width: 100%;
   height: 5rem;
@@ -114,12 +116,12 @@ footer{
   justify-content: space-between;
 }
 
-footer #soc-media-links{
+footer #soc-media-links {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
 }
 
-#soc-media-links a img{
+#soc-media-links a img {
   max-width: 60%;
 }
