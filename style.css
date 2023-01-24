@@ -98,7 +98,7 @@ body {
 }
 
 #ghost {
-  animation: animate-emoji 2s infinite;
+  animation: animate-emoji 5s infinite;
   font-size: 2em;
 
 }
