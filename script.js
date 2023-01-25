@@ -24,6 +24,32 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 console.log(db);
 
+let alienAnimation = anime({
+  targets: '#alien',
+  delay: 0,
+  keyframes: [
+    {translateY: '70'},
+    {translateX: '-45'},
+    {rotate: '-75'},
+    {translateY: '-250'},
+    {opacity: 0},
+  ],
+  duration: 1500,
+  autoplay: false,
+})
+  // funktion kollar ifall value på inName är samma som alien
+function alienAppear() {
+    if (document.getElementById('inName').value.indexOf("alien") > -1) {
+        console.log('alien') 
+        let alien = document.getElementById('alien')
+        // gör alien synlig och spelar en animation
+        alien.style.display= "block"
+        alienAnimation.play();     
+      }else{
+        document.getElementById('alien').style.display = "none"
+      }
+}
+
 //Funktionen
 let content = document.getElementById("content");
 let btn = document.getElementById("btn");
@@ -31,6 +57,7 @@ let array = [];
 btn.addEventListener("click", () => {
   writeUserData();
   resetText();
+  alienAppear();
   onValue(
     ref(db, "/"),
     (snapshot) => {
@@ -49,6 +76,7 @@ btn.addEventListener("click", () => {
     { onlyOnce: true }
   );
 });
+
 
 //Funktion för att skriva ut värden från input + datum
 function writeUserData() {
@@ -92,6 +120,7 @@ let buttonMode = document.getElementById("buttonMode");
 let body = document.getElementById("body");
 let titel = document.getElementById("titel");
 let inName = document.getElementById("inName");
+
 
 buttonMode.addEventListener("click", () => {});
 
