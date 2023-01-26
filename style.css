@@ -178,3 +178,14 @@ footer #soc-media-links {
 #notBack:hover{
   transform: scale(1.2);
 }
+
+#social-media-links a:hover {
+  transform: scale(1.2);
+  rotate: -4deg;
+} 
+
+#social-media-links a img:hover {
+  transform: scale(1.2);
+  rotate: -4deg;
+}
+
