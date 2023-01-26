@@ -151,3 +151,13 @@ buttonMode.addEventListener("click", () => {
     console.log("light");
   }
 });
+
+const ghost = document.querySelector('#ghost');
+
+ghost.addEventListener('mouseover', function(){
+  ghost.classList.add('skitzad');
+})
+
+ghost.addEventListener('mouseout', function(){
+  ghost.classList.remove('skitzad');
+})
