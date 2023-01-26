@@ -41,7 +41,7 @@ let alienAnimation = anime({
 function alienAppear() {
     if (document.getElementById('inName').value.indexOf("alien") > -1) {
       //gör den ej känslig för stora eller små bokstäver
-        value.toLowerCase();
+      const alien = textInput.value.toLowerCase();
         console.log('alien') 
         let alien = document.getElementById('alien')
         // gör alien synlig och spelar en animation
