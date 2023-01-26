@@ -40,6 +40,8 @@ let alienAnimation = anime({
   // funktion kollar ifall value på inName är samma som alien
 function alienAppear() {
     if (document.getElementById('inName').value.indexOf("alien") > -1) {
+      //gör den ej känslig för stora eller små bokstäver
+        value.toLowerCase();
         console.log('alien') 
         let alien = document.getElementById('alien')
         // gör alien synlig och spelar en animation
