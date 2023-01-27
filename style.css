@@ -29,9 +29,10 @@ body {
   padding: 15px;
   font-style: none;
   font-size: 25px;
+  color: rgb(17, 218, 118);
 }
 
-a:hover{
+#about:hover{
   color:rgb(144, 6, 135);
 }
 #inName {
